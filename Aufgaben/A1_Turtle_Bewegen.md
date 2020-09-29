@@ -224,3 +224,7 @@ for zaehler in range(5)
 ```
 
 </details>
+
+---
+
+[Hier](A2_Schneckenhaus.md) gelangst du zur Aufgabe 2
