@@ -1,6 +1,6 @@
 # Develop\<her\> Python Turtle
 
-**Herzlich willkommmen** zum diesjährigen Develop\<her\> Python Grundkurs.
+**Herzlich Willkommmen** zum diesjährigen Develop\<her\> Python Grundkurs.
 
 In den kommenden **ca. 2,5 Stunden** erwartet dich ein spannender Einstieg in die Welt der Programmierung.
 
@@ -77,4 +77,5 @@ Bitte besuche die Website https://repl.it/languages/python_turtle (Online Python
 
 **Bitte mache stetig Kopien von deinem Code und speichere sie auf Deinem Computer, um auch nach der Session nichts zu verlieren**
 
-[Hier](Aufgaben/A1_Turtle_Bewegen) gelangst Du zur ersten Aufgabe, die wir gemeinsam lösen.
+[Hier](Aufgaben/A1_Turtle_Bewegen.md) gelangst Du zur ersten Aufgabe, die wir gemeinsam lösen.
+Von dort aus gelangst du auch zu den Folgeaufgaben.
