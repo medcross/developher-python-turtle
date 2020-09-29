@@ -30,12 +30,12 @@ Der Quellcode verschiedener Sprachen unterscheidet sich in gewissen Punkten:
 - Den Klassifizierungen von Programmiersprachen, sog. **Programmierpardigmen**, welche ein Problem auf unterschidliche Herangensweisen zu lösen versuchen
 
 Der Computer an sich versteht nur **Maschinensprache**, eine Folge von Nullen und Einsen.
-Möchte der Entwickler sein Programm ausführen, so muss diesese durch einen Übersetzer in die Maschinensprache überführt werden.
+Möchte der Entwickler sein Programm ausführen, so muss dieses durch einen Übersetzer in die Maschinensprache überführt werden.
 
 `Was ist Python?`
 
 Python ist eine der vielen **Programmiersprachen**, die in der heutigen Zeit Anwendung finden.
-Als höhere Programmiersprache ist sie weit entfernt von Maschinenanweisungen und daher für uns Menschen leicht zu erlernen.
+Als **höhere Programmiersprache** ist sie weit entfernt von Maschinenanweisungen und daher für uns Menschen leicht zu erlernen.
 
 Mit Python lassen sich übliche Programmierparadigmen umsetzen, wie objektorientierte und funktionale Programmierung (nur das man diese mal gehört hat).
 
@@ -43,8 +43,9 @@ Möchte jemand einen Python Quellcode ausführen, so benötigt er einen speziell
 Im Vergleich zu anderen Programmiersprachen, die das Programm für die späteren Anwender u.a. in die bekannte `.exe` (Executable) Datei kompilieren,
 wird Python erst auf dem Rechner des Anwenders übersetzt.
 Ein Beispiel für diese Technologie ist Javascript, welches es uns erlaubt, interaktive Websiten zu schreiben.
-Auch dein Webbrowser besitzt einen Javascript Interpreter.
+Auch Dein Webbrowser besitzt einen Javascript Interpreter.
 Eine interpretierte Sprache kann meist ohne Probleme direkt auf fast jedem Computer ausgeführt werden.
+Eine `.exe` hingegen funktioniert nur unter Windows, nicht aber unter Linux, Mac oder dem Handy.
 
 `Was ist Turtle?`
 
@@ -75,7 +76,7 @@ Bitte besuche die Website https://repl.it/languages/python_turtle (Online Python
 
 *Geht die Seite nicht, gehe auf https://trinket.io/turtle*
 
-**Bitte mache stetig Kopien von deinem Code und speichere sie auf Deinem Computer, um auch nach der Session nichts zu verlieren**
+**Bitte mache stetig Kopien von Deinem Code und speichere sie auf Deinem Computer, um auch nach der Session nichts zu verlieren**
 
 [Hier](Aufgaben/A1_Turtle_Bewegen.md) gelangst Du zur ersten Aufgabe, die wir gemeinsam lösen.
 Von dort aus gelangst du auch zu den Folgeaufgaben.
