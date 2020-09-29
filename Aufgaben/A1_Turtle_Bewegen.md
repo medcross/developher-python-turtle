@@ -175,7 +175,6 @@ Schreibe vor die Schleife noch folgenden Code, um die Schildkröte schneller zu 
 import turtle
 
 turtle.speed(10)
-turtle.setx(0)
 
 # Code für die for-Schleife soll hier hin kommen
 ```
