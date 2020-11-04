@@ -20,7 +20,7 @@ Zuerst klären wir ein paar grundlegende Fragen:
 `Was ist eine Programmiersprache?`
 
 Eine Programmiersprache dient zur einfacheren **Verständigung zwischen Mensch und Computer**.
-Ein Entwickler versucht mittels dem Formulieren von meist **schrittweisen Anweisungen** ein bestehendes Problem zu lösen.
+Entwickler:innen versuchen mittels dem Formulieren von meist **schrittweisen Anweisungen** ein bestehendes Problem zu lösen.
 Dabei schreibt er mehrere Anweisungen in eine Textdatei, die in der Gesamtheit den **Quellcode** ergeben.
 
 Der Quellcode verschiedener Sprachen unterscheidet sich in gewissen Punkten:
@@ -49,7 +49,7 @@ Eine `.exe` hingegen funktioniert nur unter Windows, nicht aber unter Linux, Mac
 
 `Was ist Turtle?`
 
-Turtle hilft beim Einstieg in die Programmierung und visualisiert den geschriebenen Quelltext.
+Turtle ist ein Modul für Python und hilft beim Einstieg in die Programmierung und visualisiert den geschriebenen Quelltext.
 
 Dabei bewegt man eine oder mehrere Schildkröten über den Bildschirm und hinterlässt Spuren.
 Als Ergebnis erhält man verschiedenste Zeichnungen.
