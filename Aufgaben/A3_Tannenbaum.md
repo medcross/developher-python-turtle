@@ -5,7 +5,7 @@ Da es schon bald Weihnachten ist, wollen wir in dieser Aufgabe einen Tannenbaum 
 
 Die Schwierigkeit der Aufgabe besteht darin, nun mit zwei Schildkröten zu zeichnen.
 Eine Schildkröte zeichnet den linken Umriss des Baums und die andere den rechten.
-Außerdem lernst du in dieser Übung ein neues Sprachelement kennen: Die `while` Schleife.
+Außerdem lernst Du in dieser Übung ein neues Sprachelement kennen: Die `while` Schleife.
 
 **Ziel:** Zeichne mittels Linien den unten abgebildeten Tannenbaum
 
@@ -54,7 +54,7 @@ Für die Bearbeitung der Aufgabe muss allerdings keine Kenntnis über die objekt
 - Eine `while` Schleife besteht aus einer Bedingung und einem Schleifenkörper.
     Ist die Bedingung wahr, so werden die Anweisungen im Schleifenkörper ausgefürt,
     und zwar solange bis die Bedingung falsch ist.
-    Aus diesem Grund sollte man immer darauf achten, dass die While Schleife nicht ungewollt zu einer Endloschleife wird.
+    Aus diesem Grund sollte man immer darauf achten, dass die `while` Schleife nicht ungewollt zu einer Endloschleife wird.
     
     Hier ein Beispiel zur Nutzung der `while` Schleife:
     
@@ -63,14 +63,14 @@ Für die Bearbeitung der Aufgabe muss allerdings keine Kenntnis über die objekt
         turtle.forward(50)
     ```
 
-    Im Beispiel soll sich die Turtle solange um 50 noch vorne bewegen, bis sie sich mindestens 200 Einheiten von der Mitte
-    der Zeichenfläche aus bewegt hat.
+    Im Beispiel soll sich die Turtle solange um 50 Einheiten nach vorne bewegen,
+    bis sie sich mindestens 200 Einheiten von der Mitte der Zeichenfläche aus bewegt hat.
 - Die Schildkröten sollen wiederholt `100` Einheiten diagonal und anschließend `50` Einheiten horizontal zeichnen.
 - Sind die Schildkröten mindestens `150` Einheiten voneinander entfernt, so sollen sie den Tannenbaum vollenden
     und sich genau in der Mitte treffen.
 - Der Tannenbaum soll von oben nach unten gezeichnet werden.
     Fängt man unten an, so ist die Aufgabe deutlich schwerer umzusetzen!
-- Das Ergebnis von Berechnungen kann als so genannte Variable zwischengespeichert werden.
+- Das Ergebnis von Berechnungen kann als sogenannte Variable zwischengespeichert werden.
     Der Wert der Variablen kann dann wieder abgerufen werden, bspw. als Parameter in einer Methode.
     
     Beispiel:
@@ -175,7 +175,7 @@ Schmücke den Baum mit Kugeln, die an den Seiten herunterängen.
 
 Mit `circle(10)` kann ein kompletter Kreis gezeichnet werden.
 Der Kreis wird entsprechend der Ausrichtung der Schildkröte gezeichnet.
-D.h., Du musst möglicherweise die Schildkröte drehen, bevor du den Kreis zeichnest.
+D.h., Du musst möglicherweise die Schildkröte drehen, bevor Du den Kreis zeichnest.
 
 <details>
 <summary>Lösung - Tannenbaum mit Stamm</summary>
@@ -238,4 +238,4 @@ right_turtle.forward(half_distance)
 ```
 </details>
 
-In der [nächsten Aufgabe](A4_Kreatievuebung.md) sollst du nun das gelernte Wissen selber anwenden und deine eigene Zeichnung erstellen.
+In der [nächsten Aufgabe](A4_Kreatievuebung.md) sollst Du nun das gelernte Wissen selber anwenden und deine eigene Zeichnung erstellen.
