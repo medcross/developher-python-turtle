@@ -130,4 +130,4 @@ Nun beherrscht Du schon For-Schleifen und If-Bedingungen.
 Natürlich gibt es noch mehr Arten von Schleifen und Fallunterscheidungen,
 jedoch soll dies erstmal genug Input für den Einstieg in Python sein.
 
-In der [nächsten Aufgabe](A3_Kreatievuebung.md) sollst du nun das gelernte Wissen selber anwenden und deine eigene Zeichnung erstellen.
+[Hier](A3_Tannenbaum.md) gelangst du zur nächsten Aufgabe.
