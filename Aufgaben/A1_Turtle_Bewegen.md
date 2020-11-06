@@ -190,7 +190,7 @@ import turtle
 
 turtle.speed(10)
 
-for zaehler in range(5)
+for zaehler in range(5):
     print('Das')
     turtle.left(45)
     turtle.forward(142)
@@ -222,6 +222,8 @@ for zaehler in range(5)
     print('Laus-')
     turtle.right(45)
     turtle.forward(100)
+
+    turtle.left(90)
 ```
 
 </details>
