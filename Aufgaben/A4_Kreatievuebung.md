@@ -41,5 +41,6 @@ Um diese Aufgabe zu berarbeiten, musst Du in Repl.it folgendes tun:
 1. Reiter `Import from GitHub` anwählen
 1. `https://github.com/medcross/developher-python-turtle` als repository URL eingeben.
 1. Das Projekt importieren lassen
-1. Im rechten oberen Bereich als `language` die Sprache `python(with Turtle)` auswählen und als Befehl
+1. Im rechten oberen Bereich als `language` die Sprache `python` auswählen und als Befehl
     `python Maze/main.py`. Dann mit `done` die Konfiguarion bestätigen.
+    Die gewohnte Umgebung `python (with Turtle)` funlktioniert leider nicht wie gewünscht.
