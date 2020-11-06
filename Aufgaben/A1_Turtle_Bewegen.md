@@ -4,7 +4,7 @@
 
 Ein Einstieg in die Programmierung wäre nicht richtig, ohne der Welt `Hallo` zu sagen.
 
-In Python kannst du eine Ausgabe mit der Anweisung `print()` machen.
+In Python kannst Du eine Ausgabe mit der Anweisung `print()` machen.
 Es handelt sich hierbei um einen **Funktionsaufruf**.
 
 In den Klammern `()` der Funktion übergibst Du einen **Parameter**.
@@ -16,7 +16,7 @@ Wir erhalten also `print('Hallo Welt')`.
 **Zusammenfassung:**
 
 - `print()` ist eine Funktion zur Ausgabe von Werten; auch Zahlen
-- Eine Funktion kann eine bestimmte Anzahl oder keine Parameter entgegenehmen
+- Eine Funktion kann eine bestimmte Anzahl an Parametern oder keine Parameter entgegenehmen
 
 **Info:** Richtig eingesetzt sind Ausgaben nützliche Hilfsmittel, um das Verhalten deines Programmes besser zu verstehen.
 
@@ -26,16 +26,16 @@ Wir erhalten also `print('Hallo Welt')`.
 
 **Ziel**: Die Schildkröte erscheint in der Mitte des Feldes und bewegt sich in verschiedene Richtungen.
 
-Programmierer erfinden das Rad nicht immer neu.
+Programmierer:innen erfinden das Rad nicht immer neu.
 So hat für uns auch schon jemand den "Pinsel" und die Leinwand erfunden.
 Natürlich haben die dafür verantwortlichen Personen diese mit Quellcode umgesetzt.
 Die Gesamtheit des Quellcodes wird in Python in einem **Modul** gebündelt.
 
-**Info:** Mittels Modulen können alltägliche Probleme vieler Programmierer mit anderen Programmieren geteilt werden, die ihr Programm darau aufbauen.
+**Info:** Mittels Modulen können alltägliche Probleme vieler Programmierer:innen mit anderen Programmierer:innen geteilt werden, die ihr Programm darauf aufbauen.
 Es wäre doch lästig und ineffizient, wenn man immer wieder von Null anfangen muss.
 Aus diesem Grund bietet auch die Programmiersprache selber die wichtigsten Abstraktionen in Form einer Standardbibliothek an.
 
-Wir nutzen heute ausschließlich das `turtle` Modul. Dies müssen wir aber zunächst importieren, damit der Python Interpreter weiß, wass wir benötigen.
+Wir nutzen heute ausschließlich das `turtle` Modul. Dies müssen wir aber zunächst importieren, damit der Python Interpreter weiß, was wir benötigen.
 
 Hierfür schreiben wir ganz oben in den Quelltext `import turtle`
 
@@ -44,16 +44,17 @@ Um auf Funktionen des Moduls zugreifen zu können, nutzt man die Syntax `turtle.
 Funktionen zum Bewegen der Schildkröte sind bspw.
 
 - `forward(100)`: Gehe 100 Scrhitte in Kopfrichtung nach vorne
-- `backward(100)`: Gehe 100 Schritte rückwärts
+- `backward(100)`: Gehe 100 Schritte in Kopfrichtung nach hinten
 - `left(90)`: Drehe 90° nach links
 - `right(90)`: Drehe 90° nach rechts
 
 Schaffst Du es, die Schildkröte zu navigieren?
+Achte auch daruf, wo die Schildkröte bei der ersten Anweisung erscheint und in welche Richtung sie ausgerichtet ist.
 
 # Aufgabe 1c - Zeichne ein Quadrat
 
 **Ziel:** Zeichne ein Quadrat mit gleichen Seitenlängen durch Bewegen und Drehen der Schildkröte.
-Dabei solltest du am Ende wieder beim Startpunkt ankommen.
+Dabei solltest Du am Ende wieder beim Startpunkt ankommen.
 
 <details>
 <summary>Lösung - Quadrat</summary>
@@ -72,7 +73,7 @@ turtle.forward(100)
 
 </details>
 
-**Wichtig: Speichere den Quelltext zum Zeichen des Rechtecks auf deinem Computer, um ihn später wiederzuverwenden**
+**Wichtig: Speichere den Quelltext zum Zeichen des Rechtecks auf deinem Computer, um ihn ggf. später wiederzuverwenden**
 
 # Aufgabe 1d - Das Haus vom Nikolaus
 
@@ -136,10 +137,10 @@ turtle.forward(100)
 
 Wie geht der Spruch weiter? `Das ist das Haus vom Nikolaus ... und nebenan vom Weihnachtsmann`
 
-**Ziel:** Baue mehrere der Häuser aus Aufgabe nebeneinander. Setze dafür eine Schleife ein, um den gleichen Code nicht unnötig oft kopieren zu müssen.
+**Ziel:** Baue mehrere der Häuser aus Aufgabe 1d nebeneinander. Setze dafür eine Schleife ein, um den gleichen Code nicht unnötig oft kopieren zu müssen.
 
 Um in der Programmierung die gleichen Anweisungen zu wiederholen, nutzt man **Schleifen**.
-Eine Form der Schleife ist die Zählschleife. Man definiert eine **Variable**, welche den Zähler speichert und bei jedem Durchlauf erhöht (inkrementiert).
+Eine Form der Schleife ist die Zählschleife. Man definiert eine **Variable**, welche den Zähler speichert und bei jedem Durchlauf erhöht (inkrementiert) wird.
 
 In Python nutzt man dazu das Schlüsselwort (die Vokabel) `for`. Daher wird die Schleife auch als **For-Schleife** bezeichnet.
 
@@ -150,7 +151,7 @@ for zaehler in range(5):
     print(zaheler)
 ```
 
-`range(5)` ist wieder eine Funktion. Der Parameter `5` erzeugt eine Sequenz von Zahlen von 0 bis 4.
+`range(5)` ist wieder eine Funktion. Der Parameter `5` erzeugt eine **Sequenz** der Zahlen von 0 bis 4.
 
 Die Ausgabe eines solchen Programms ist folgende:
 
@@ -165,9 +166,9 @@ Die Ausgabe eines solchen Programms ist folgende:
 **Denkaufgabe:** Fällt Dir etwas auf? Besonders wo der Zähler startet und endet?
 
 Ersetze nun das Print durch den Code für das Nikolaushaus.
-Achte besonders auf die einfache Einrückung, die du mit der Tabulatortaste erreichst.
+Achte besonders auf die einfache Einrückung, die Du mit der Tabulatortaste erreichst.
 Sie ist wichtig, um dem Python Interpreter zu zeigen, welche Anweisungen zur Schleife gehören.
-Der Doppelpunkt `:` zu Beginn der SChleifenanweisung wird ebenfalls als Signalisierung des Beginns vom Schleifenkörper benötigt.
+Der Doppelpunkt `:` zu Beginn der Schleifenanweisung wird ebenfalls als Signalisierung des Beginns vom Schleifenkörper benötigt.
 
 Schreibe vor die Schleife noch folgenden Code, um die Schildkröte schneller zu machen.
 
@@ -227,4 +228,4 @@ for zaehler in range(5)
 
 ---
 
-[Hier](A2_Schneckenhaus.md) gelangst du zur Aufgabe 2
+[Hier](A2_Schneckenhaus.md) gelangst Du zur Aufgabe 2
