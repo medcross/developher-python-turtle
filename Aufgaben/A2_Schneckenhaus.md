@@ -1,11 +1,11 @@
 # Aufgabe 2a - Das Schneckenhaus
 
-Jetzt haben wir ein Rechteck und ein Dreick (Hausdach vom Nikolaus).
+Jetzt haben wir ein Rechteck und ein Dreick gezeichnet (Hausdach vom Nikolaus).
 Im Folgenden wollen wir nun Viertelkreise zu einem Schneckenhaus formen.
 Die Viertelkreise werden dabei immer größer.
 
-Mit der Funktion `circle({Kreisradium},{gezeichneter Winkel})` lässt sich ein Kreis erstellen.
-Die Funktion wird somit mit zwei Parametern verwendet.
+Mit der Funktion `circle({Kreisradius},{gezeichneter Winkel})` lässt sich ein Kreisbogen erstellen.
+Die Funktion wird in dieser Aufgabe mit den zwei Parametern verwendet.
 Mit `circle(15, 90)` lässt sich bspw. ein Viertelkreis mit dem Radius von 15 Einheiten zeichnen.
 
 Du kannst mit der Zählervariable auch rechnen, wie in der Schule. Hier ein paar Beispiele:
@@ -17,8 +17,8 @@ Du kannst mit der Zählervariable auch rechnen, wie in der Schule. Hier ein paar
 - Es gilt Punkt vor Strich; Klammern können helfen: `(zaehler + 1) * 5`
 
 **Ziel:** Nutze das in der vorherigen Übung erlangte Wissen und die in dieser Übung vorgebene Funktion, um ein Schneckenhaus mit drei Umdrehungen zu zeichen.
-Zuerst aber, solltest du mit der `circle` Funktion experimentieren und unetrschiedlich große Kreise erstellen.
-Denke auch daran, dass der Zähler bei 0 startet und schaue insbesondere auf das letzte Beispiel, um dieses Problem zu lösen.
+Zuerst aber solltest Du mit der `circle` Funktion experimentieren und unterschiedlich große Kreise erstellen.
+Denke auch daran, dass der Zähler bei `0` startet und schaue insbesondere auf das letzte Beispiel mit Punkt-vor-Strich, um dieses Problem zu lösen.
 
 <details>
 <summary>Lösung - Schneckenhaus</summary>
@@ -50,7 +50,7 @@ print(turtle.pencolor())
 
 **Aufgabe**: Nutze die Farben `pink` und `blue` abwechselnd für jeden Viertelkreis des Schneckenhauses.
 
-Für die Aufgabe benötigst du folgende **Bedingungen**, um die Farbe zu wechseln:
+Für die Aufgabe benötigst Du folgende **Bedingungen**, um die Farbe zu wechseln:
 
 - Ist die Farbe `blue` aktiv, so soll der nächste Viertelkreis `pink` gezeichnet werden.
 - Ist die Farbe `pink` aktiv, so soll der nächste Viertelkreis `blue` gezeichnet werden.
