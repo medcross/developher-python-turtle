@@ -94,7 +94,7 @@ In der Mathematik gibt es hierfür den **Modulo Operator** `%`.
 Der Modulo Operator errechnet den Rest einer Division.
 Beispiel: `5 % 2 = 1`
 
-**Aufgabe:** Ändere die If-Bedingung so ab, dass du folgende Bedingung nutzt:
+**Aufgabe:** Ändere die If-Bedingung so ab, dass Du folgende Bedingung nutzt:
 
 ```python
 for zaehler in range(13):
@@ -127,7 +127,5 @@ for zaehler in range(13):
 ---
 
 Nun beherrscht Du schon For-Schleifen und If-Bedingungen.
-Natürlich gibt es noch mehr Arten von Schleifen und Fallunterscheidungen,
-jedoch soll dies erstmal genug Input für den Einstieg in Python sein.
 
-[Hier](A3_Tannenbaum.md) gelangst du zur nächsten Aufgabe.
+[Hier](A3_Tannenbaum.md) gelangst Du zur nächsten Aufgabe.
