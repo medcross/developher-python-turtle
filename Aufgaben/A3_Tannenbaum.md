@@ -12,7 +12,7 @@ Außerdem lernst Du in dieser Übung ein neues Sprachelement kennen: Die `while`
 ![Tannenbaum](../Media/tannenbaum.png)
 
 Zunächst brauchen wir zwei Schildkröten.
-In Python-Turtle ist jede Schildkröte eine **Klasse**.
+In Python-Turtle ist eine Schildkröte eine **Klasse**.
 Möchte man eine Schildkröte zum Zeichnen erstellen, so ruft man ein **Objekt** ins Leben.
 Das Objekt basiert auf den Definitionen innerhalb der Klasse.
 
@@ -33,7 +33,7 @@ Für die Bearbeitung der Aufgabe muss allerdings keine Kenntnis über die objekt
 ***
 
 - Erstelle die Schildkröten und gebe ihnen jeweils einen eindeutigen Namen.
-    Das Gleichheitszeichen ist eine Zuweisung zu einer Variablen (auf der linken Seite).
+    Das Gleichheitszeichen ist eine Zuweisung zu einer **Variablen** (auf der linken Seite).
     Eine Variable erlaubt es uns, genau wie beim Modul `turtle`, mit einem `.` auf die Methoden zuzugreifen.
 
     ```python
@@ -70,7 +70,7 @@ Für die Bearbeitung der Aufgabe muss allerdings keine Kenntnis über die objekt
     und sich genau in der Mitte treffen.
 - Der Tannenbaum soll von oben nach unten gezeichnet werden.
     Fängt man unten an, so ist die Aufgabe deutlich schwerer umzusetzen!
-- Das Ergebnis von Berechnungen kann als sogenannte Variable zwischengespeichert werden.
+- Das Ergebnis von Berechnungen kann ebenfalls in einer Variablen zwischengespeichert werden.
     Der Wert der Variablen kann dann wieder abgerufen werden, bspw. als Parameter in einer Methode.
     
     Beispiel:
@@ -171,7 +171,7 @@ right_turtle.forward(half_distance)
 
 Schmücke den Baum mit Kugeln, die an den Seiten herunterängen.
 
-**Ziel:** Nutze Kreise, um die Kugel darzustellen und eine Linie, um sie an den Baum zu hängen.
+**Ziel:** Nutze Kreise, um die Kugeln darzustellen und eine Linie, um sie an den Baum zu hängen.
 
 Mit `circle(10)` kann ein kompletter Kreis gezeichnet werden.
 Der Kreis wird entsprechend der Ausrichtung der Schildkröte gezeichnet.
@@ -239,3 +239,4 @@ right_turtle.forward(half_distance)
 </details>
 
 In der [nächsten Aufgabe](A4_Kreatievuebung.md) sollst Du nun das gelernte Wissen selber anwenden und deine eigene Zeichnung erstellen.
+Es gibt auch eine Alternativaufgabe, falls Du ein noch etwas kniffligeres Problem lösen möchtest.
