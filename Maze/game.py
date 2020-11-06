@@ -1,6 +1,5 @@
 import turtle
-import blueprints
-import maze as mz
+from Maze import maze as mz, blueprints
 
 
 def setup_maze(block_size, selected_maze):

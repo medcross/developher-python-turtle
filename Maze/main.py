@@ -1,4 +1,4 @@
-import game
+from Maze import game
 
 BLOCK_SIZE = 50
 SELECTED_MAZE = 0
