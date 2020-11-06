@@ -14,6 +14,7 @@ Hier nochmal der Überblick der zuvor genutzten Funktionen inkl. weiterer Mögli
 - `circle({Radius},{gezeichneter Winkel})` - Zeichne einen Kreis
 - `speed({Geschwindigkeit})` - Ändert die Zeichengeschwindigkeit der Schildkröte
 
+Zur Erinnerung:
 Du kannst auch zwei Schildkröten erstellen, indem du sie in einer **Variable** zwischenspeicherst und von dort aus ansprichst.
 Dies geht so:
 
@@ -27,3 +28,18 @@ turtle2 = turtle.Turtle()
 turtle1.forward(100)
 turtle2.backward(100)
 ```
+
+## Alternative Aufgabe (Turtle Maze)
+
+Wenn Du noch eine kleine Heraufsorderung haben möchtest, kannst du versuchen die Turtle durch ein Labyrinth zu führen.
+
+![Turtle Maze](../Media/turtle_maze.png)
+
+Um diese Aufgabe zu berarbeiten, musst Du in Repl.it folgendes tun:
+
+1. Gehe auf das `+` Zeichen, rechts in der oberen Leiste (neben `Sign up`)
+1. Reiter `Import from GitHub` anwählen
+1. `https://github.com/medcross/developher-python-turtle` als repository URL eingeben.
+1. Das Projekt importieren lassen
+1. Im rechten oberen Bereich als `language` die Sprache `python(with Turtle)` auswählen und als Befehl
+    `python Maze/main.py`. Dann mit `done` die Konfiguarion bestätigen.
