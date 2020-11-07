@@ -81,8 +81,10 @@ Wichtig ist, dass man mit einer einsteigerfreundlichen Sprache anfängt, und die
 ## Aufgaben
 
 Bitte besuche die Website https://repl.it/languages/python_turtle (Online Python Editor)
-
 *Geht die Seite nicht, gehe auf https://trinket.io/turtle*
+
+Alternativ installieren wir zusammen Python und PyCharm auf unseren Computer.
+PyCharm nutzen wir als unsere Entwicklungsumgebung.
 
 **Bitte mache stetig Kopien von Deinem Code und speichere sie auf Deinem Computer, um auch nach der Session nichts zu verlieren**
 
