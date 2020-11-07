@@ -99,7 +99,7 @@ Beispiel: `5 % 2 = 1`
 ```python
 for zaehler in range(13):
   # Ersetze WERT_1 und WERT_2 durch die richtigen Ganzzahlen
-  if zaehler % WERT_1 is WERT_2:
+  if zaehler % WERT_1 == WERT_2:
     # ...
   else:
     # ...
