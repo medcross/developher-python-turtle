@@ -59,7 +59,7 @@ Für die Bearbeitung der Aufgabe muss allerdings keine Kenntnis über die objekt
     Hier ein Beispiel zur Nutzung der `while` Schleife:
     
     ```python
-    while (turtle.xcor() <= 200):
+    while turtle.xcor() <= 200:
         turtle.forward(50)
     ```
 
