@@ -80,6 +80,8 @@ turtle.forward(100)
 **Ziel:** Kannst Du auch das Haus vom Nikolaus zeichnen, ohne dabei eine Linie zweimal zu zeichnen?
 
 Fange beim Zeichnen mit den unteren linken Punkt des Rechtecks an an.
+Eine Diagonale des Rechtecks hat die Länge von `142` Einheiten und eine Seite die Länge von `100` Einheiten.
+Eine Seite des Daches hat eine Länge von `71` Einheiten.
 
 Gebe zusätzlich beim Zeichnen der Linien folgendes aus:
 
