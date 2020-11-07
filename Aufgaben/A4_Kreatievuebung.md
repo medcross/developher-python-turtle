@@ -31,7 +31,7 @@ turtle2.backward(100)
 
 ## Alternative Aufgabe (Turtle Maze)
 
-Wenn Du noch eine kleine Heraufsorderung haben möchtest, kannst du versuchen die Turtle durch ein Labyrinth zu führen.
+Wenn Du noch eine kleine Heraufsorderung haben möchtest, kannst Du versuchen die Turtle durch ein Labyrinth zu führen.
 
 ![Turtle Maze](../Media/turtle_maze.png)
 
