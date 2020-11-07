@@ -79,6 +79,8 @@ turtle.forward(100)
 
 **Ziel:** Kannst Du auch das Haus vom Nikolaus zeichnen, ohne dabei eine Linie zweimal zu zeichnen?
 
+Fange beim Zeichnen mit den unteren linken Punkt des Rechtecks an an.
+
 Gebe zusätzlich beim Zeichnen der Linien folgendes aus:
 
 ```
