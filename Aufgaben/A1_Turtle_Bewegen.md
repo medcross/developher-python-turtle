@@ -150,7 +150,7 @@ Hier ein Beispiel einer solchen For-Schleife, die nach oben zählt und den Wert 
 
 ```python
 for zaehler in range(5):
-    print(zaheler)
+    print(zaehler)
 ```
 
 `range(5)` ist wieder eine Funktion. Der Parameter `5` erzeugt eine **Sequenz** der Zahlen von 0 bis 4.
