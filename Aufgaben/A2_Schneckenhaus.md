@@ -61,7 +61,7 @@ Mit `else` lässt sich auf den Alternativfall überprüfen.
 Für die Aufgabe lässt sich der Operator folgendermaßen verwenden:
 
 ```python
-if turtle.pencolor() is 'blue':
+if turtle.pencolor() == 'blue':
     turtle.pencolor('pink')
 else:
     # Alternativfall implementieren
@@ -76,7 +76,7 @@ import turtle
 turtle.pencolor('pink')
 
 for zaehler in range(13):
-  if turtle.pencolor() is 'pink':
+  if turtle.pencolor() == 'pink':
     turtle.color('blue')
   else:
     turtle.color('pink')
@@ -114,7 +114,7 @@ import turtle
 turtle.pencolor('pink')
 
 for zaehler in range(13):
-  if zaehler % 2 is 0:
+  if zaehler % 2 == 0:
     turtle.color('blue')
   else:
     turtle.color('pink')
